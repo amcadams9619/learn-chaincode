@@ -99,7 +99,7 @@ func (t *SimpleChaincode) write(stub shim.ChaincodeStubInterface, args []string)
     return nil, nil
 }
 
-// add in our read function
+// alan add in our read function
 func (t *SimpleChaincode) read(stub shim.ChaincodeStubInterface, args []string) ([]byte, error) {
     var name, jsonResp string
     var err error
